@@ -1,0 +1,129 @@
+.logo {
+    text-align: center;
+    padding-top: 145px;
+}
+
+.bar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.search {
+    border-radius: 30px;
+    width: 580px;
+    height: 45px;
+    border-width: 1px;
+    border:1px solid lightgray;
+    text-decoration: none;
+    outline: none;
+    background-image: url("https://icon-library.com/images/google-search-magnifying-glass-icon/google-search-magnifying-glass-icon-5.jpg"), url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2.5% 50%, right;
+    background-size: 15px 15px, 50px 20px;
+}
+
+.search:hover{
+    -webkit-box-shadow: 0 0 10px lightgray;
+}
+
+ul, .ul2 {   
+    list-style-type: none;
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+  
+.li2 {
+    float: right;
+    text-align: center;
+}
+
+
+li a, .li2 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    opacity: 0.75;
+    font-size: 13px;
+    display: inline-block;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#sign_in {
+    background: #1b6ef3;
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    height:"28";
+    width:"43";
+}
+
+.placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; 
+    
+    text-align: center;
+}
+
+.app_icon {
+    opacity: 0.6;
+    padding-top: 5px;
+}
+
+.app_icon:hover {
+    opacity: 1;
+}
+
+.footer {
+   background-color: #f2f2f2;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 3em; 
+   margin-left: -10px;
+}
+
+.adjust {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.adjust2 {
+    margin-top: 4px;
+}
+
+.GoogleBox {
+    margin-top: 30px;
+    margin-left: 610px;
+}
+
+.GoogleBoxValue {
+    height: 36px;
+    width: 120px;
+    text-align: center;
+    outline: none;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.GoogleBoxValue:hover {
+    border: 0.5px solid gray;
+    opacity: 0.75;
+    border-radius: 4px;
+}
